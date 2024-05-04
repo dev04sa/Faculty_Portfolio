@@ -37,7 +37,7 @@ const Hero = () => {
 
       <div className="  flex flex-col  justify-center mt-5   ">
         <Image
-          src="/balajinaik.jpg"
+          src={`/balajinaik.jpg`}
           alt="Download Image"
           className=" w-[250px] lg:w-[250px] rounded-full "
           width={200}
