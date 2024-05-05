@@ -1,8 +1,9 @@
 // import Dimage from './assets/download.jpeg'
 import Image from "next/image";
-// import github from './assets/github.png'
-// import instagram from './assets/instagram.png'
-// import linkedin from './assets/linkedin.png'
+import { FaLinkedin } from "react-icons/fa";
+import { FaOrcid } from "react-icons/fa";
+import { FaGoogleScholar } from "react-icons/fa6";
+import { HiOutlineLightBulb } from "react-icons/hi";
 
 const Hero = () => {
   return (
@@ -35,22 +36,20 @@ const Hero = () => {
         </div>
       </div>
 
-      <div className="  flex flex-col  justify-center mt-5   ">
+      <div className=" mx-auto   flex flex-col  justify-center mt-5   ">
         <Image
-          src={`/balajinaik.jpg`}
+          src={`/assets/balajinaik.jpg`}
           alt="Download Image"
           className=" w-[250px] lg:w-[250px] rounded-full "
           width={200}
           height={200}
         />
-        {/* <div className='flex justify-between mt-5 md:mx-28 ' >
-            <img src={linkedin} alt="Download Image" className=' w-[50px] lg:w-[80px] rounded-full ' />
-            <img src={instagram} alt="Download Image" className=' w-[50px] lg:w-[80px] rounded-full ' />
-            <img src={github} alt="Download Image" className=' w-[50px] lg:w-[80px] rounded-full ' />
-            
-
-
-            </div> */}
+        <div className=" mx-auto flex justify-between text-2xl text-red-700  gap-5  mt-5  ">
+          <FaLinkedin />
+          <FaGoogleScholar />
+          <FaOrcid />
+          <HiOutlineLightBulb />
+        </div>
       </div>
     </div>
   );
