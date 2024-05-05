@@ -8,7 +8,7 @@ import { HiOutlineLightBulb } from "react-icons/hi";
 const Hero = () => {
   return (
     <div className=" px-10  md:px-32 mt-10 items-center gap-24 md:gap-60 grid grid-cols-1  md:grid-cols-2  ">
-      <div className="     ">
+      <div className=" mx-auto    ">
         <h4 className="font-extrabold  text-[18px] bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-purple-600">
           Dr. B Balaji Naik
         </h4>

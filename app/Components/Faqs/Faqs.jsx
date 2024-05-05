@@ -5,6 +5,7 @@ import About from "../About";
 import BasicInfo from "../BasicInfo";
 import Subjects from "../Subjects";
 import Experiences from "../Experiences";
+import Achievements from "../Achievements";
 
 const Faqs = () => {
   const [activeTab, setActiveTab] = useState(1);
@@ -17,11 +18,11 @@ const Faqs = () => {
     1: <BasicInfo />,
     2: <Subjects />,
     3: <Experiences />,
-    4: <About />,
+    4: <Achievements />,
   };
 
   return (
-    <div className="w-full  mx-auto mt-8">
+    <div className="   w-full   mx-auto mt-8">
       {/* <div className="text-center">
         <h1>GeT ANSWERS OF</h1>
         <div className="rounded-2xl m-auto px-2 py-1 w-fit bg-[#2097C9] ">
@@ -30,7 +31,7 @@ const Faqs = () => {
           </h1>
         </div>
       </div> */}
-      <div className="flex justify-evenly items-center ">
+      <div className="flex px-3 justify-between md:justify-evenly items-center ">
         <TabButton
           title="Basic Information"
           onClick={() => changeTab(1)}
@@ -47,7 +48,7 @@ const Faqs = () => {
           isActive={activeTab === 3}
         />
         <TabButton
-          title="Genral"
+          title="Achievements"
           onClick={() => changeTab(4)}
           isActive={activeTab === 4}
         />

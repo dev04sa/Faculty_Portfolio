@@ -2,8 +2,8 @@ import React from "react";
 
 const BasicInfo = () => {
   return (
-    <div className="  my-10  min-w-min mx-5 flex flex-col gap-4    ">
-      <div className=" py-5 px-5  shadow-lg ">
+    <div className="  my-10  min-w-min mx-5 flex flex-col gap-7    ">
+      <div className=" bg-slate-50 py-5 px-5  shadow-lg ">
         <h1 className="  mx-2 font-bold text-2xl ">About me</h1>
         <p className="mx-5">
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est
@@ -21,7 +21,7 @@ const BasicInfo = () => {
           quisquam ratione ab animi.
         </p>
 
-        <div className=" mx-5 mt-10 ">
+        <div className=" bg-slate-50 mx-5 mt-10 ">
           <div className="my-4 font-semibold  ">
             <h2>Assistant Professor,</h2>
             <h2> Computer Science and Engineering,</h2>
@@ -52,7 +52,7 @@ const BasicInfo = () => {
           </div>
         </div>
       </div>
-      <div className=" py-5 px-5  shadow-lg ">
+      <div className="bg-slate-50  py-5 px-5  shadow-lg ">
         <h1 className=" mx-2 font-bold text-2xl ">Research Interest:-</h1>
         <ul className=" mx-10 list-disc text-xl ">
           <li>Edge Computing</li>
@@ -63,7 +63,7 @@ const BasicInfo = () => {
           <li> Optimization</li>
         </ul>
       </div>
-      <div class="py-5 px-5 shadow-lg">
+      <div class="py-5 bg-slate-50 px-5 shadow-lg">
         <h1 class="mx-2 font-bold text-2xl">Educational Qualification</h1>
         <table class="w-full text-center text-xl  ">
           <thead>
