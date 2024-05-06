@@ -5,7 +5,7 @@ const Achievements = () => {
     <div className="  my-10  min-w-min mx-5 flex flex-col gap-7    ">
       <div className="bg-slate-50  py-5 px-5  shadow-lg ">
         <h1 className=" mx-2 font-bold text-2xl ">Journals</h1>
-        <ul className=" mx-10 py-5 list-decimal flex flex-col gap-4 text-xl ">
+        <ul className=" mx-10 py-5 list-decimal flex flex-col gap-4 text-[1.1rem]  ">
           <li>
             Marlom Bay, Pratyay Kuila, Balaji Naik, Santanu Ghosh,
             &quot;Quantum-inspired particle swarm optimization for efficient IoT
@@ -42,7 +42,7 @@ const Achievements = () => {
       </div>
       <div className="bg-slate-50  py-5 px-5  shadow-lg ">
         <h1 className=" mx-2 font-bold text-2xl ">Conferences</h1>
-        <ul className=" mx-10 py-5 list-disc flex flex-col gap-4 text-xl ">
+        <ul className=" mx-10 py-5 list-disc flex flex-col gap-4 text-[1.1rem]  ">
           <li>
             Deepak, Santanu Ghosh, B Balaji Naik, Pratyay Kuila , &quot;Energy
             and Delay Efficient Partial Offloading for UAV-assisted MEC Systems
