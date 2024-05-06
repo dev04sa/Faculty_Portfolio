@@ -82,7 +82,7 @@
 // };
 
 // export default Faqs;
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 
 import About from "../About";
 import BasicInfo from "../BasicInfo";
@@ -107,7 +107,7 @@ const Faqs = () => {
   };
 
   return (
-    <div className="  mt-8">
+    <div data-aos="fade-up" className="   mt-8">
       <div className="flex flex-wrap justify-center">
         <TabButton
           title="Basic Information"

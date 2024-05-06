@@ -8,7 +8,7 @@ import { HiOutlineLightBulb } from "react-icons/hi";
 const Hero = () => {
   return (
     <div className=" flex   flex-col  md:flex-row md:justify-evenly  py-10 items-center   ">
-      <div className="  px-24 md:px-0     ">
+      <div data-aos="fade-right" className="  px-24 md:px-0     ">
         <h4 className="font-extrabold  text-[18px] bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-purple-600">
           Dr. B Balaji Naik
         </h4>
@@ -36,7 +36,10 @@ const Hero = () => {
         </div>
       </div>
 
-      <div className="   flex flex-col  justify-center mt-5   ">
+      <div
+        data-aos="fade-left"
+        className="   flex flex-col  justify-center mt-5   "
+      >
         <Image
           src={`/assets/balajinaik.jpg`}
           alt="Download Image"

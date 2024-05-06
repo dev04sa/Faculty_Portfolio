@@ -3,7 +3,10 @@ import React from "react";
 const BasicInfo = () => {
   return (
     <div className="  my-10   md:w-auto mx-5 flex flex-col gap-7      ">
-      <div className=" bg-slate-50 py-5 px-5  shadow-lg overflow-x-auto ">
+      <div
+        data-aos="fade-up"
+        className=" bg-slate-50 py-5 px-5  shadow-lg overflow-x-auto "
+      >
         <h1 className="  mx-2 font-bold text-xl ">About me</h1>
         <p className="mx-5">
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est
@@ -52,7 +55,10 @@ const BasicInfo = () => {
           </div>
         </div>
       </div>
-      <div className="bg-slate-50  py-5 px-5  shadow-lg overflow-x-auto ">
+      <div
+        data-aos="fade-up"
+        className="bg-slate-50  py-5 px-5  shadow-lg overflow-x-auto "
+      >
         <h1 className=" mx-2 font-bold text-xl ">Research Interest:-</h1>
         <ul className=" mx-10 list-disc text-[1.1rem]  ">
           <li>Edge Computing</li>
@@ -63,37 +69,40 @@ const BasicInfo = () => {
           <li> Optimization</li>
         </ul>
       </div>
-      <div class="py-5 bg-slate-50 px-5 shadow-lg overflow-x-auto ">
-        <h1 class="mx-2 font-bold text-xl">Educational Qualification</h1>
-        <table class=" text-center text-[1.1rem]   ">
+      <div
+        data-aos="fade-up"
+        className="py-5 bg-slate-50 px-5 shadow-lg overflow-x-auto "
+      >
+        <h1 className="mx-2 font-bold text-xl">Educational Qualification</h1>
+        <table className=" text-center text-[1.1rem]   ">
           <thead>
             <tr>
-              <th class="px-4 py-2">Certification</th>
-              <th class="px-4 py-2">Institute Name</th>
-              <th class="px-4 py-2">Passing Year</th>
+              <th className="px-4 py-2">Certification</th>
+              <th className="px-4 py-2">Institute Name</th>
+              <th className="px-4 py-2">Passing Year</th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td class="px-4 py-2">PhD</td>
-              <td class="px-4 py-2">National Institute of Technology Sikkim</td>
-              <td class="px-4 py-2">2021</td>
+              <td className="px-4 py-2">PhD</td>
+              <td className="px-4 py-2">National Institute of Technology Sikkim</td>
+              <td className="px-4 py-2">2021</td>
             </tr>
             <tr>
-              <td class="px-4 py-2">M. Tech</td>
-              <td class="px-4 py-2">National Institute of Technology Trichy</td>
-              <td class="px-4 py-2">2013</td>
+              <td className="px-4 py-2">M. Tech</td>
+              <td className="px-4 py-2">National Institute of Technology Trichy</td>
+              <td className="px-4 py-2">2013</td>
             </tr>
             <tr>
-              <td class="px-4 py-2">B. Tech</td>
-              <td class="px-4 py-2">Andhra University</td>
-              <td class="px-4 py-2">2011</td>
+              <td className="px-4 py-2">B. Tech</td>
+              <td className="px-4 py-2">Andhra University</td>
+              <td className="px-4 py-2">2011</td>
             </tr>
           </tbody>
         </table>
       </div>
 
-      {/* <div className=" py-5 px-5  shadow-lg ">
+      {/* <div classNameName=" py-5 px-5  shadow-lg ">
         <h1 className=" mx-2 font-bold ">Educational Qualification</h1>
         <div class="grid grid-cols-3 gap-4">
           <div>

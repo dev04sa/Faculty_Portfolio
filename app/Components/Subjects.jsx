@@ -3,7 +3,7 @@ import React from "react";
 const Subjects = () => {
   return (
     <div className="   min-w-min mx-5 flex flex-col gap-7     ">
-      <div className=" bg-slate-50 py-5 px-5  shadow-lg ">
+      <div data-aos="fade-up" className=" bg-slate-50 py-5 px-5  shadow-lg ">
         <h1 className=" mx-2 font-bold text-xl ">Subjects</h1>
         <ul className=" mx-10 list-disc text-[1.1rem]  ">
           <li>CS35101 Data Structure Autumn 2023</li>

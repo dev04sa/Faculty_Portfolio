@@ -3,7 +3,7 @@ import React from "react";
 const Achievements = () => {
   return (
     <div className="  my-10  min-w-min mx-5 flex flex-col gap-7    ">
-      <div className="bg-slate-50  py-5 px-5  shadow-lg ">
+      <div data-aos="fade-up" className="bg-slate-50  py-5 px-5  shadow-lg ">
         <h1 className=" mx-2 font-bold text-xl ">Journals</h1>
         <ul className=" mx-10 py-5 list-decimal flex flex-col gap-4 text-[1.1rem]  ">
           <li>
@@ -40,7 +40,7 @@ const Achievements = () => {
           </li>
         </ul>
       </div>
-      <div className="bg-slate-50  py-5 px-5  shadow-lg ">
+      <div data-aos="fade-up" className="bg-slate-50  py-5 px-5  shadow-lg ">
         <h1 className=" mx-2 font-bold text-xl ">Conferences</h1>
         <ul className=" mx-10 py-5 list-disc flex flex-col gap-4 text-[1.1rem]  ">
           <li>
