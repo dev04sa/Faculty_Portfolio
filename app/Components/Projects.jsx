@@ -107,7 +107,7 @@ const Projects = () => {
   return (
     <div className="my-10 md:w-auto mx-5 flex flex-col gap-7">
       <div className="py-5 bg-slate-50 px-5 shadow-lg overflow-x-auto">
-        <h1 className="mx-2 font-bold text-2xl">Phd Candidates</h1>
+        <h1 className="mx-2 font-bold text-xl">Phd Candidates</h1>
         <table className="text-center text-[1.1rem]">
           <thead>
             <tr>
@@ -142,7 +142,7 @@ const Projects = () => {
         </table>
       </div>
       <div className="py-5 bg-slate-50 px-5 shadow-lg overflow-x-auto">
-        <h1 className="mx-2 font-bold text-2xl">PG/UG Projects</h1>
+        <h1 className="mx-2 font-bold text-xl">PG/UG Projects</h1>
         <table className="text-center text-[1.1rem]">
           <thead>
             <tr>

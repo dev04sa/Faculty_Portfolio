@@ -4,7 +4,7 @@ const BasicInfo = () => {
   return (
     <div className="  my-10   md:w-auto mx-5 flex flex-col gap-7      ">
       <div className=" bg-slate-50 py-5 px-5  shadow-lg overflow-x-auto ">
-        <h1 className="  mx-2 font-bold text-2xl ">About me</h1>
+        <h1 className="  mx-2 font-bold text-xl ">About me</h1>
         <p className="mx-5">
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est
           voluptatum labore neque repellendus accusantium veritatis quae ullam
@@ -53,7 +53,7 @@ const BasicInfo = () => {
         </div>
       </div>
       <div className="bg-slate-50  py-5 px-5  shadow-lg overflow-x-auto ">
-        <h1 className=" mx-2 font-bold text-2xl ">Research Interest:-</h1>
+        <h1 className=" mx-2 font-bold text-xl ">Research Interest:-</h1>
         <ul className=" mx-10 list-disc text-[1.1rem]  ">
           <li>Edge Computing</li>
           <li> Nature Inspired Algorithms</li>
@@ -64,7 +64,7 @@ const BasicInfo = () => {
         </ul>
       </div>
       <div class="py-5 bg-slate-50 px-5 shadow-lg overflow-x-auto ">
-        <h1 class="mx-2 font-bold text-2xl">Educational Qualification</h1>
+        <h1 class="mx-2 font-bold text-xl">Educational Qualification</h1>
         <table class=" text-center text-[1.1rem]   ">
           <thead>
             <tr>
