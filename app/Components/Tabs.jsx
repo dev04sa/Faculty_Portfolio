@@ -8,7 +8,7 @@
 // import Achievements from "../Achievements";
 // import Projects from "../Projects";
 
-// const Faqs = () => {
+// const Tabs = () => {
 //   const [activeTab, setActiveTab] = useState(1);
 
 //   const changeTab = (tabIndex) => {
@@ -81,17 +81,17 @@
 //   );
 // };
 
-// export default Faqs;
+// export default Tabs;
 import React, { useEffect, useState } from "react";
 
-import About from "../About";
-import BasicInfo from "../BasicInfo";
-import Subjects from "../Subjects";
-import Experiences from "../Experiences";
-import Achievements from "../Achievements";
-import Projects from "../Projects";
+import About from "./About";
+import BasicInfo from "./BasicInfo";
+import Subjects from "./Subjects";
+import Experiences from "./Experiences";
+import Achievements from "./Achievements";
+import Projects from "./Projects";
 
-const Faqs = () => {
+const Tabs = () => {
   const [activeTab, setActiveTab] = useState(1);
 
   const changeTab = (tabIndex) => {
@@ -135,7 +135,7 @@ const Faqs = () => {
           isActive={activeTab === 5}
         />
       </div>
-      <div className="mx-5 lg:mx-40 mt-4">{TabContent[activeTab]}</div>
+      <div className="mx-5  lg:mx-40 mt-4">{TabContent[activeTab]}</div>
     </div>
   );
 };
@@ -144,8 +144,8 @@ const TabButton = ({ title, onClick, isActive }) => {
   return (
     <button
       className={`${
-        isActive ? "bg-[#FE3D4D] text-white " : ""
-      } bg-[#FFCDCD]-600 rounded-xl px-4 py-2 m-2`}
+        isActive ? "bg-red-700 text-white " : ""
+      } bg-[#FFCDCD]-600 rounded-xl font-bold px-4 py-2 m-2`}
       style={{
         boxShadow: "4.38px 4.38px 0px 0px #000000",
       }}
@@ -156,4 +156,4 @@ const TabButton = ({ title, onClick, isActive }) => {
   );
 };
 
-export default Faqs;
+export default Tabs;

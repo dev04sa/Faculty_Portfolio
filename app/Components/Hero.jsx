@@ -23,7 +23,7 @@ const Hero = () => {
             <span className="block md:inline">Bihar (800005), India</span>
           </h1>
         </div>
-        <div className="  flex gap-6 text-[0.7rem]   sm:text-xs justify-start  ">
+        <div className="  flex gap-6 text-[0.7rem]   text-xs md:text-xl justify-start  ">
           <button
             style={{ backgroundColor: "rgb(148, 27, 12)" }}
             className=" px-3 py-1 pb-1 font-bold  rounded-full text-white mt-4 hover:scale-110 transition-all ease-in duration-300  "
