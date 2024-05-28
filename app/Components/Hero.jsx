@@ -10,7 +10,7 @@ const Hero = () => {
     <div className=" flex   flex-col  md:flex-row md:justify-evenly  py-10 items-center   ">
       <div data-aos="fade-right" className="   px-24 md:px-0     ">
         <h4 className="font-extrabold md:text-3xl   text-[18px] bg-clip-text text-transparent bg-gradient-to-r from-blue-600 to-purple-600">
-          Dr. B Balaji Naik
+          Dr. Jhon Doe
         </h4>
 
         <div className=" font-bold md:text-2xl ">
@@ -41,7 +41,7 @@ const Hero = () => {
         className="   flex flex-col  justify-center mt-5   "
       >
         <Image
-          src={`/assets/balajinaik.jpg`}
+          src={`/assets/user.jpeg`}
           alt="Download Image"
           className=" w-[250px] lg:w-[250px] rounded-full "
           width={200}
